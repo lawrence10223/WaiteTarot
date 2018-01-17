@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meaingbg"
+    tools:context="massive_mark.waitetarot.MeaningActivity">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/desc"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/cover"
+        android:id="@+id/imageView_result"/>
+
+    <View
+        android:layout_marginTop="450dp"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/centerLine" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:orientation="vertical"
+      android:layout_marginTop="455dp"
+      android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="牌名："/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="審判"
+        android:id="@+id/card_name"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="540dp"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/centerLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="545dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="關鍵字："/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:text="福活、覺醒、回憶"
+            android:id="@+id/key_word"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="630dp"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/centerLine"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="635dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="星象："/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="冥王星"
+            android:id="@+id/planet"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="720dp"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/centerLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="725dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="四要素："/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="水"
+            android:id="@+id/elements"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="810dp"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/centerLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="820dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="牌意："/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:text="隱士（The Hermit）逆位解釋
+工作狂、鐵面無私、偏見、有怨言、不夠通融、孤獨、固執、戒備心強、迷失方向、舉止輕浮、懷疑和逃避愛情
+當牌面正立時，你在事業的黃金時期引退，旁人都不了解，這不過是你在為下一次黃金時期的到來進行休息而已。感情方面你將深刻思考自己在這段感情中的角色和地位，並探索彼此之間的關係。
+
+倒立的隱士
+倒立的隱士牌有兩種可能性。第一，你可能是故意讓自己忙的團團轉，以免面對改變的要求，或面對你確實是很寂寞這個事實。因此這裡暗示著過長的工作時間，或違反朝九晚五的工作時間。為了避免和別人有真正的社交接觸，你可能會在晚上或週末工作，以填滿你的社交時間。例如，蘿蓓卡白天在一家廣告代理商擔任接待的工作，而為了要填補夜晚寂寥的時光，她每周有四個晚上在一家旅館的大廳酒吧工作。這讓他不會感到寂寥，但也組織了她向內心的探求，以找出她真正的目的。
+可能你需要再回到力量牌，再你願意讓別人親近你之前，你要先找出你的內在力量。
+現在已經到了要停下腳步，並思索你要走向何處，以及為什麼要走那條路的時候了。或許你為了要避免孤獨，正要向平凡屈服；或者因為害怕孤單，或害怕你可能要放棄某些東西，所以寧願選擇安逸而不願成長。
+"
+            android:id="@+id/card_meaning"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>
